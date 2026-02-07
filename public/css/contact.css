@@ -1,0 +1,59 @@
+/* --- ESTILOS GENERALES --- */
+.contact-body { 
+    background-color: #f8f9fa; 
+}
+
+/* Contenedor principal */
+.contact-wrapper { 
+    background: white; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1); 
+}
+
+/* Panel Izquierdo (Info) */
+.info-panel { 
+    background: var(--chem-green); 
+    padding: 50px; 
+    color: white; 
+}
+
+.icon-circle { 
+    width: 50px; height: 50px; 
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 50%; 
+    display: flex; align-items: center; justify-content: center; 
+    font-size: 1.2rem; color: white; transition: 0.3s;
+}
+.icon-circle:hover { background: white; color: var(--chem-green); transform: scale(1.1); }
+
+/* Panel Derecho (Formulario) */
+.form-panel { padding: 50px; }
+
+.form-control-chem { 
+    border: none; border-bottom: 2px solid #eee; 
+    padding: 15px 0; border-radius: 0; background: transparent; transition: 0.3s;
+}
+.form-control-chem:focus { 
+    outline: none; box-shadow: none; border-bottom-color: var(--chem-orange); 
+}
+
+.btn-submit { 
+    background: var(--chem-dark); color: white; 
+    padding: 15px 40px; border-radius: 50px; font-weight: 700; 
+    border: none; margin-top: 20px; width: 100%; transition: 0.3s;
+}
+.btn-submit:hover { background: var(--chem-orange); transform: translateY(-3px); }
+
+/* --- MAPA --- */
+.map-container {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 5px solid white;
+}
+iframe { width: 100%; height: 100%; border: 0; }

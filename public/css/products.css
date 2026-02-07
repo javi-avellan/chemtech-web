@@ -1,0 +1,13 @@
+/* --- ESTILOS SOLO PARA PRODUCTOS --- */
+.product-card {
+    border: none; border-radius: 15px; overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: 0.3s; height: 100%; background: white;
+}
+.product-card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.1); }
+.product-img-wrapper {
+    height: 200px; overflow: hidden; display: flex; align-items: center;
+    justify-content: center; background: #f8f9fa; padding: 20px;
+}
+.product-img-wrapper img { max-height: 100%; max-width: 100%; object-fit: contain; transition: 0.3s; }
+.product-card:hover .product-img-wrapper img { transform: scale(1.05); }
+.product-body { padding: 25px; }

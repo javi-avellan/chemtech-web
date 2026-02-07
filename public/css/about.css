@@ -1,0 +1,83 @@
+/* --- ESTILOS QUIÉNES SOMOS --- */
+
+/* Hero Section */
+.about-hero {
+    position: relative;
+    padding: 150px 0;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 68, 45, 0.9), rgba(0, 68, 45, 0.8)), 
+                url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.about-logo-overlay {
+    max-width: 350px;
+    opacity: 0.9;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));
+}
+
+/* Secciones de Contenido */
+.content-section {
+    padding: 100px 0;
+    background: white;
+}
+
+.section-img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.section-img:hover {
+    transform: scale(1.02);
+}
+
+.text-box h2 {
+    font-weight: 800;
+    color: var(--chem-dark);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.text-box p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* --- BARRA DE VALORES (ANIMADA) --- */
+.values-bar {
+    background: var(--chem-dark);
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+}
+
+.values-title {
+    font-size: 2.5rem;
+    font-weight: 300; /* Letra fina para el texto fijo */
+    margin: 0;
+}
+
+/* La palabra que cambia */
+.values-highlight {
+    font-weight: 800;
+    color: var(--chem-orange); /* Color naranja ChemTech */
+    display: inline-block;
+    min-width: 250px; /* Evita que el texto salte al cambiar de tamaño */
+    text-align: left;
+    transition: all 0.5s ease-in-out; /* Suavidad mágica */
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estado oculto para la animación */
+.values-highlight.hidden {
+    opacity: 0;
+    transform: translateY(20px); /* Se mueve un poco hacia abajo al salir */
+}

@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  chemtech-web:
+    build: .
+    container_name: chemtech_nginx
+    ports:
+      - "8085:80"
+    restart: always
