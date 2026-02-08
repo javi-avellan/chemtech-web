@@ -1,6 +1,6 @@
 🧪 ChemTech Web
 
-    Sitio web de la empresa CHEM-TECH, empresa que ofrece la mejor en materias primas en las lineas industrial, agroquimica y salud animal.
+    Sitio web de la empresa CHEM-TECH, empresa que ofrece lo mejor en materias primas en las lineas industrial, agroquimica y salud animal.
 
 🚀 Sobre el proyecto
 
